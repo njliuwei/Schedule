@@ -15,7 +15,7 @@ public class ScheduledTasks {
 
     @Scheduled(fixedRate = 1000 * 30)
     public void reportCurrentTime(){
-        System.out.println ("Scheduling Tasks Examples: The time is now " + dateFormat ().format (new Date ()));
+        System.out.println ("Schedulings Tasks Examples: The time is now " + dateFormat ().format (new Date ()));
     }
 
     //每1分钟执行一次
